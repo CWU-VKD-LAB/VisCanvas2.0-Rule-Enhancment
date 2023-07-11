@@ -1,0 +1,802 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualBasic.PowerPacks.Vs". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2827,5): warning MSB3284: Cannot get the file path for type library "05bfd3f1-6319-4f30-b752-c7a22889bcc4" version 1.0. Library not registered. (Exception from HRESULT: 0x8002801D (TYPE_E_LIBNOTREGISTERED))
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2827,5): warning MSB3284: Cannot get the file path for type library "05bfd3f1-6319-4f30-b752-c7a22889bcc4" version 1.0. Library not registered. (Exception from HRESULT: 0x8002801D (TYPE_E_LIBNOTREGISTERED))
+  stdafx.cpp
+  AssemblyInfo.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\AssemblyInfo.cpp(40,29): warning C4947: 'System::Security::Permissions::SecurityAction::RequestMinimum': marked as obsolete
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\AssemblyInfo.cpp(40,29): message : Message: 'Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.'
+  ClassScheme.cpp
+  ColorCustom.cpp
+  CoordinateGroupGeneralizer.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\CoordinateGroupGeneralizer.cpp(18,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\CoordinateGroupGeneralizer.cpp(37,20): warning C4018: '<': signed/unsigned mismatch
+  CoordinateGroupingWindow.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\CoordinateGroupingWindow.cpp(46,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\CoordinateGroupingWindow.cpp(65,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\CoordinateGroupingWindow.cpp(99,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\CoordinateGroupingWindow.cpp(121,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\CoordinateGroupingWindow.cpp(129,21): warning C4018: '<': signed/unsigned mismatch
+  CoordinateGroupMaker.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\CoordinateGroupMaker.cpp(31,20): warning C4018: '<': signed/unsigned mismatch
+  DataClass.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataClass.cpp(95,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataClass.cpp(105,20): warning C4018: '<': signed/unsigned mismatch
+  DataInterface.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1328,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1391,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1453,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1476,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1602,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1820,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2103,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2151,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2170,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2413,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2422,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2434,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2445,14): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2591,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2614,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2623,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2701,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2724,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2732,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1806,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1841,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1880,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(2269,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Subsets.h(232,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Subsets.h(251,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Subsets.h(281,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Subsets.h(296,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NonMonotonicChoice.h(152,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NonMonotonicChoice.h(200,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(1805,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(1855,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2723,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2735,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2765,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2770,11): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2774,16): warning C4804: '>': unsafe use of type 'bool' in operation
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2788,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2821,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(292,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(299,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(311,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(319,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(391,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(474,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(482,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(490,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(498,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(506,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(522,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(529,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(552,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(570,17): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(579,25): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(628,35): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(638,35): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(822,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(828,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(845,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(851,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(865,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(871,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(892,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(908,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(927,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(944,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(951,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1101,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1168,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1280,30): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1631,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1650,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1654,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1666,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1706,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1749,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1781,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1792,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1830,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1844,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1866,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1888,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1905,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1921,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(1937,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2044,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2089,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2107,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2154,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2221,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2251,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2299,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2323,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2334,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2336,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2354,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2365,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2375,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2425,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2440,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2452,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2467,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2484,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2500,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2512,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2527,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2544,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2550,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2552,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2579,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2591,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2597,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2599,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2627,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2644,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2671,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2683,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2698,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2717,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2724,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2750,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2763,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2793,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2800,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2826,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2839,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2928,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2942,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2953,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2963,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(2965,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3061,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3075,40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3085,40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3123,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3136,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3157,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3166,48): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3203,26): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3300,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3302,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3479,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3491,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3526,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3540,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3579,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3587,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3597,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3711,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(3785,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(4061,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(4075,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(4085,20): warning C4018: '<': signed/unsigned mismatch
+  DataNode.cpp
+  DataSet.cpp
+  Dimension.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Dimension.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Dimension.cpp(111,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Dimension.cpp(117,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Dimension.cpp(126,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Dimension.cpp(140,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Dimension.cpp(166,22): warning C4018: '<': signed/unsigned mismatch
+  DNSRule.cpp
+  DomNominalSet.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(137,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(158,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(201,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(300,65): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(350,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(394,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(518,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(529,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(551,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(575,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(659,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(672,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(690,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(704,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(719,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(733,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(747,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(762,24): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(763,25): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(863,29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(877,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(889,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(911,69): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(953,42): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1279,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1281,17): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1299,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1318,35): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1324,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1498,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1500,35): warning C4805: '==': unsafe mix of type '_Ty' and type 'bool' in operation
+          with
+          [
+              _Ty=boolean
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1629,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1698,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1782,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1795,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1819,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1839,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(1851,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2109,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2132,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2137,17): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2144,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2298,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2308,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2413,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2424,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2516,51): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2517,54): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2518,41): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2520,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2535,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2547,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2562,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2574,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2588,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2600,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2801,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2912,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(2931,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3006,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3014,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3042,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3098,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3117,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3192,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3200,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3277,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3296,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3350,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3379,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3387,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3448,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3466,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3535,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3543,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3583,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3746,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3751,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3772,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3780,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3787,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3794,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3827,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3839,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3869,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3879,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3882,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3918,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3925,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3943,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3946,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3966,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3969,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3989,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3993,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4033,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4038,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4045,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4058,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4060,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4077,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4107,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4113,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4116,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4134,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4149,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4179,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4197,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4238,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4274,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4276,13): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4280,55): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4292,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4309,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4329,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4382,10): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4542,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4610,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4706,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4712,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4751,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4759,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4763,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4780,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4812,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4823,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4838,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4844,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4855,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4863,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4904,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4909,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4919,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4924,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4932,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4937,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4947,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4959,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4974,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4984,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(4997,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5051,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5265,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5272,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5276,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5316,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5328,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5636,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5649,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5667,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5681,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5696,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5710,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5724,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5739,24): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5740,25): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5752,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5754,17): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5772,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5791,35): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5796,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5961,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(5963,35): warning C4805: '==': unsafe mix of type '_Ty' and type 'bool' in operation
+          with
+          [
+              _Ty=boolean
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6012,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6027,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6060,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6084,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6091,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6095,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6116,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6182,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6197,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6232,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6236,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6284,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6325,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6365,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6369,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6425,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6438,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6441,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6472,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6484,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6488,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6491,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6509,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6513,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6516,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6551,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6564,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6577,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6614,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6636,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6651,112): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6655,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6660,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6663,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6681,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6686,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6688,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6708,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6724,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6729,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6732,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6757,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6763,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6766,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6799,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6813,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6818,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6828,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6871,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6914,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6929,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(6955,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7001,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7024,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7026,10): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7098,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7122,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7130,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7148,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7164,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7174,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7181,38): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7185,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7207,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7217,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7246,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7265,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7293,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7315,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7327,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7359,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7417,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7417,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7423,19): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7554,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7578,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7594,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7637,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7642,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7667,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7685,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7716,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7721,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7750,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(7773,23): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(186,16): warning C4244: 'initializing': conversion from 'double' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=int
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3593): message : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<_Ty1&,std::string&,0>(_Other1,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::string,
+              _Ty1=double,
+              _Other1=double &,
+              _Other2=std::string &
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3593): message : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<_Ty1&,std::string&,0>(_Other1,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::string,
+              _Ty1=double,
+              _Other1=double &,
+              _Other2=std::string &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(186,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty1=int
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3594): message : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<_Ty1,std::string&,0>(_Other1 &&,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::string,
+              _Ty1=double,
+              _Other1=double,
+              _Other2=std::string &
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DomNominalSet.cpp(3594): message : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<_Ty1,std::string&,0>(_Other1 &&,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::string,
+              _Ty1=double,
+              _Other1=double,
+              _Other2=std::string &
+          ]
+  DomNomSetsLinesBetweenCords.cpp
+  GraphNote.cpp
+  AdditionalSettings.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1328,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1391,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1453,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1476,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1602,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1820,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2103,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2151,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2170,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2413,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2422,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2434,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2445,14): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2591,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2614,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2623,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2701,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2724,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2732,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  IntervalGrouping.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\IntervalGrouping.cpp(31,20): warning C4018: '<': signed/unsigned mismatch
+  IntervalGroupStarting.cpp
+  loadingForm.cpp
+  MonotoneBooleanChains.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(44,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(47,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(56,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(59,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(69,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(78,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(86,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(109,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(123,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(133,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(137,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(149,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(153,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(171,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(175,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(194,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(200,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(221,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(247,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(249,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(274,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(285,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(302,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(335,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(346,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(370,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(380,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(423,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(448,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(459,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(468,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(496,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(516,25): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\MonotoneBooleanChains.cpp(241): warning C4715: 'MonotoneBooleanChains::getNextLink': not all control paths return a value
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(126): warning C4715: 'OpenGLForm::COpenGL::SetFilePath': not all control paths return a value
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(702): warning C4172: returning address of local variable or temporary: str
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\DataInterface.cpp(250): warning C4715: 'DataInterface::saveToFile': not all control paths return a value
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2788): warning C4700: uninitialized local variable 'editedAttributes' used
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(126): warning C4715: 'OpenGLForm::COpenGL::SetFilePath': not all control paths return a value
+  Compiling...
+  NominalColorPicker.cpp
+  NominalGrouping.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalGrouping.cpp(14,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalGrouping.cpp(83,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalGrouping.cpp(86,18): warning C4018: '>': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalGrouping.cpp(93,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalGrouping.cpp(96,18): warning C4018: '<': signed/unsigned mismatch
+  NominalSubgroupBuilder.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalSubgroupBuilder.cpp(15,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalSubgroupBuilder.cpp(42,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalSubgroupBuilder.cpp(48,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalSubgroupBuilder.cpp(63,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalSubgroupBuilder.cpp(120,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalSubgroupBuilder.cpp(123,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NominalSubgroupBuilder.cpp(207,20): warning C4018: '<': signed/unsigned mismatch
+  NonMonotonicSelector.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NonMonotonicSelector.cpp(28,20): warning C4018: '<': signed/unsigned mismatch
+  NSGGroupAssingment.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NSGGroupAssingment.cpp(15,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NSGGroupAssingment.cpp(67,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NSGGroupAssingment.cpp(82,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NSGGroupAssingment.cpp(86,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NSGGroupAssingment.cpp(99,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NSGGroupAssingment.cpp(105,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NSGGroupAssingment.cpp(110,26): warning C4018: '<': signed/unsigned mismatch
+  OpenGL.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\LoadingScreen.h(24,22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\LoadingScreen.h(113,20): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1328,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1391,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1453,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1476,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1602,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1820,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2103,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2151,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2170,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2413,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2422,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2434,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2445,14): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2591,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2614,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2623,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2701,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2724,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2732,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.cpp(91,31): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.cpp(109,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.cpp(117,21): warning C4018: '<': signed/unsigned mismatch
+  OrderScheme.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(154,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(175,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(186,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(212,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(215,18): warning C4018: '>': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(222,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(225,18): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(249,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(276,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(302,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(330,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrderScheme.cpp(358,20): warning C4018: '<': signed/unsigned mismatch
+  OrdinalGrouping.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OrdinalGrouping.cpp(14,20): warning C4018: '<': signed/unsigned mismatch
+  pch.cpp
+  RatioGroupStarting.cpp
+  RatioGrouping.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\RatioGrouping.cpp(31,20): warning C4018: '<': signed/unsigned mismatch
+  Scheme.cpp
+  SchemeEditor.cpp
+  SetCluster.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(45,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(66,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(92,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(111,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(129,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(160,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(173,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(186,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(202,27): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(213,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(221,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(233,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(262,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(280,32): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(294,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\SetCluster.cpp(294,64): warning C4018: '>=': signed/unsigned mismatch
+  Settings.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1328,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1391,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1453,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1476,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1602,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1820,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2103,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2151,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2170,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2413,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2422,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2434,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2445,14): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2591,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2614,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2623,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2701,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2724,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2732,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1806,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1841,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1880,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(2269,22): warning C4018: '<': signed/unsigned mismatch
+  NormalizationStyle.cpp
+  michaelRuleGen.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(104,38): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(121,39): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(123,40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(137,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(174,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(194,43): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(478,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(493,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(511,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(524,37): warning C4018: '<': signed/unsigned mismatch
+  threadedLoadingForm.cpp
+  VisCanvas.cpp
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1328,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1391,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1453,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1476,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1602,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1820,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(1830,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2103,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2151,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2170,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2413,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2422,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2434,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2445,14): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2591,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2614,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2623,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2701,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2724,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(2732,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1806,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1841,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(1880,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Settings.h(2269,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Subsets.h(232,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Subsets.h(251,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Subsets.h(281,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\Subsets.h(296,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NonMonotonicChoice.h(152,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\NonMonotonicChoice.h(200,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(1805,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(1855,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2723,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2735,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2765,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2770,11): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2774,16): warning C4804: '>': unsafe use of type 'bool' in operation
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2788,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2821,24): warning C4018: '<': signed/unsigned mismatch
+  VisCanvasHelp.cpp
+  Generating Code...
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(126): warning C4715: 'OpenGLForm::COpenGL::SetFilePath': not all control paths return a value
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\VisCanvas.h(2788): warning C4700: uninitialized local variable 'editedAttributes' used
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(126): warning C4715: 'OpenGLForm::COpenGL::SetFilePath': not all control paths return a value
+C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\OpenGL.h(126): warning C4715: 'OpenGLForm::COpenGL::SetFilePath': not all control paths return a value
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OpenGL_on_a_Windows_Form.vcxproj -> C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\Debug\VisCanvas.exe
