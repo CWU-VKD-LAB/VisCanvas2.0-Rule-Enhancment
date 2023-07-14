@@ -8,28 +8,39 @@
 #include<list>
 #include <fstream>
 #include <sstream>
+#include <algorithm>
+#include <set>
+#include <algorithm>
 #include "stdafx.h"
-#include "michaelRuleGen.h"
 
 // namespace for ease
 using namespace std;
 
 // create structure to hold rule data
-struct rule {
-	int ruleValFront = 0;
-	int ruleValBack = 0;
+struct Rule {
+	//max for expansion
+	vector<int> rowForRuleFront;
+	//min for expansion
+	vector<int> rowForRuleBack;
+	vector<int> colExpansionIndex; // represents the column-index where the expansion/rule happens (this is to retrieve the other attributes of the rule)
+	//rowForRuleFront, rowForRuleBack, and colExpansionIndex are parallel arrays (or vectors, but if you have to research, then look up parallel arrays).
 	int coverageCounter = 0;
 	int classCovered = -1; // -1 is default value, but could potentially match a data's class.
-	int expansionIndex = -1; // represents the index where the expansion/rule happens
+	//this is used when combining rules. The two rules which are combined are formed into a new a rule, and the previous two rules are eventually deleted.
+	bool markForErasal = false;
 };
 
-void clearRule(rule& usedRule)
+void clearRule(Rule& usedRule)
 {
-	usedRule.ruleValFront = 0;
-	usedRule.ruleValBack = 0;
+	usedRule.rowForRuleFront.clear();
+	usedRule.rowForRuleBack.clear();
 	usedRule.coverageCounter = 0;
 	usedRule.classCovered = -1;
-	usedRule.expansionIndex = -1;
+	usedRule.colExpansionIndex.clear();
+}
+
+bool compareByCoverage(const Rule& rule1, const Rule& rule2) {
+	return rule1.coverageCounter > rule2.coverageCounter;
 }
 
 struct Expansion
@@ -48,6 +59,7 @@ struct Expansion
 	int columnIndex;
 	//if the current expansion is already in a rule, then this should be checked true. By default, expansions are not part of any rule. 
 	bool alreadyInARule = false;
+	//this will be used later on to count how many cases are covered
 };
 
 std::vector<std::vector<int>> readCSV(std::string filename) {
@@ -81,17 +93,363 @@ std::vector<std::vector<int>> readCSV(std::string filename) {
 	return data;
 }
 
+
+
+//combines rules which have the possibility to be combined
+//these things need to be tested in order for a rule to be combined:
+// 
+//1)If the rules have their expansion at the same spot and their expansions are some intersection of each other and if all of the clauses are the same
+//	Example:
+//	Consider the two rules below
+//	R1:	1 <= X1 <= 2
+//		X2 = 3
+//		X3 = 4
+// 
+//	R2:	2 <= X1 <= 4
+//		X2 = 3
+//		X3 = 4
+//	The two expanding clauses are in the same attribue, 0. They also intersect each other
+//	The remaining clauses are also the same. Therefore these rules can be combined
+//	R1: 1 <= X1 <= 4
+//		X2 = 3
+//		X3 = 4
+//
+//2)the rule's clauses which are not expanded should all be the same
+//	In that case, the values that are not expanded which are sitting in the same spot as the opposing rule's expansion should fit within the expansion comparison
+//	Example:
+//	Consider the two rules below
+//	R1:	X1 = 2
+//		X2 = 3
+//		3 <= X3 <= 5
+//
+//	R2:	1 <= X1 <= 3
+//		X2 = 3
+//		X3 = 4
+//	The only clause which is not expanded is X2. For both Rules X2 is the same.
+//	Where R1 has an expansion "3 <= X3 <= 5" R2 has "X3 = 4". 4 fits within R1's expansion.
+//	Where R2 has an expansion "1 <= X1 <= 3" R1 has "X1 = 2". 2 fits within R2's expansion.
+//	Therefore two rules can be combined into
+//	R:	1 <= X1 <= 3
+//		X2 = 3
+//		3 <= X3 <= 5
+// 
+
+
+//first method
+vector<Rule> combineOverlappingRules(vector<Rule> rules, vector<vector<int>> data)
+{
+	vector<Rule> combinedRules; // Vector to store the combined rules
+
+	for (int i = 0; i < rules.size(); ++i)
+	{
+		//skip rules which have already been combined
+		if (rules[i].markForErasal)
+		{
+			continue;
+		}
+		int compareRow = rules[i].rowForRuleFront[0];//either front or back should be able to be used here
+		for (int j = i + 1; j < rules.size(); ++j)
+		{
+			//skip rules which have already been combined or which are from different classes
+			if (rules[j].markForErasal || rules[i].classCovered != rules[j].classCovered)
+			{
+				continue;
+			}
+			int matchRow = rules[j].rowForRuleFront[0];//either front or back should be able to be used here
+			bool goodRow = false;
+			if (rules[i].colExpansionIndex[0] == rules[j].colExpansionIndex[0])
+			{
+				int colum = rules[i].colExpansionIndex[0]; //the "n" is a crime
+				int compBackRow = rules[i].rowForRuleBack[0];
+				int compFrontRow = rules[i].rowForRuleFront[0];
+				int matchBackRow = rules[j].rowForRuleBack[0];
+				int matchFrontRow = rules[j].rowForRuleFront[0];
+
+				int compBackExp = data.at(compBackRow).at(colum);
+				int compFrontExp = data.at(compFrontRow).at(colum);
+				int matchBackExp = data.at(matchBackRow).at(colum);
+				int matchFrontExp = data.at(matchFrontRow).at(colum);
+
+				// Check if the expansions intersect
+				if ((compBackExp >= matchBackExp && compBackExp <= matchFrontExp) || (compFrontExp >= matchBackExp && compBackExp <= matchFrontExp))
+				{
+					// Check if all other clauses are the same
+					bool allClausesSame = true;
+					for (int col = 0; col < data.at(0).size() - 1; col++)
+					{
+						if (col != rules[i].colExpansionIndex[0])//column index should be the same for both
+						{
+							int compData = data.at(compareRow).at(col);
+							int matchData = data.at(matchRow).at(col);
+							if (compData != matchData)
+							{
+								allClausesSame = false;
+								break;
+							}
+						}
+					}
+
+					// If all clauses are the same, combine the rules
+					if (allClausesSame)
+					{
+						//rules[i].markForErasal = true;
+						rules[j].markForErasal = true;
+						Rule newRule = Rule();
+						//newRule.classCovered = rules[i].classCovered;
+						//newRule.colExpansionIndex.push_back(rules[i].colExpansionIndex[0]);
+						//newRule.coverageCounter = 0;
+						rules[i].rowForRuleBack[0] = (compBackExp < matchBackExp ? rules[i].rowForRuleBack[0] : rules[j].rowForRuleBack[0]);
+						rules[i].rowForRuleFront[0] = (compFrontExp > matchFrontExp ? rules[i].rowForRuleFront[0] : rules[j].rowForRuleFront[0]);
+						//combinedRules.push_back(newRule);
+						//break; // one combination is all we need
+					}
+				}
+			}
+		}
+	}
+
+	// Add non-marked rules to combinedRules
+	for (const Rule& rule : rules)
+	{
+		if (!rule.markForErasal)
+			combinedRules.push_back(rule);
+	}
+
+	return combinedRules;
+}
+
+//second method
+vector<Rule> combineRulesGoodClauses(vector<Rule> rules, vector<vector<int>> data)
+{
+	vector<Rule> combinedRules; // Vector to store the combined rules
+
+	for (int i = 0; i < rules.size(); ++i)
+	{
+		//skip rules which have already been combined
+		if (rules[i].markForErasal)
+		{
+			continue;
+		}
+		int compareRow = rules[i].rowForRuleFront[0];//either front or back should work here
+		for (int j = i + 1; j < rules.size(); ++j)
+		{
+			//skip rules which have already been combined or which are from different classes
+			if (rules[j].markForErasal || rules[i].classCovered != rules[j].classCovered)
+			{
+				continue;
+			}
+			int matchRow = rules[j].rowForRuleFront[0];//either front or back should work here
+			bool goodRow = false;
+			if (rules[i].colExpansionIndex[0] != rules[j].colExpansionIndex[0])
+			{
+				for (int col = 0; col < data.at(0).size() - 1; col++)//"-1" since class is accounted for above
+				{
+					//if expanded attribute
+					if (rules[i].colExpansionIndex[0] == col)
+					{
+						//if the val of the current row and col is not within the expanded bounds of the rule, then go the next row
+						if (!(data.at(matchRow).at(col) >= data.at(rules[i].rowForRuleBack[0]).at(col) && data.at(matchRow).at(col) <= data.at(rules[i].rowForRuleFront[0]).at(col)))
+						{
+							goodRow = false;
+							break;
+						}
+						goodRow = true;
+					}
+					else if (rules[j].colExpansionIndex[0] == col)
+					{
+						//if the val of the current row and col is not within the expanded bounds of the rule, then go the next row
+						if (!(data.at(compareRow).at(col) >= data.at(rules[j].rowForRuleBack[0]).at(col) && data.at(compareRow).at(col) <= data.at(rules[j].rowForRuleFront[0]).at(col)))
+						{
+							goodRow = false;
+							break;
+						}
+						goodRow = true;
+					}
+					else
+					{
+						//if the current row at the current column does not match the usable row at the current column, then the rule does not apply to that row
+						//go to the next
+						if (!(data.at(compareRow).at(col) == data.at(matchRow).at(col)))
+						{
+							goodRow = false;
+							break;
+						}
+						goodRow = true;
+					}
+				}
+				if (goodRow)
+				{
+					//rules[i].markForErasal = true;
+					rules[j].markForErasal = true;
+					//Rule newRule = Rule();
+					//newRule.classCovered = rules[i].classCovered;
+					rules[i].colExpansionIndex.push_back(rules[j].colExpansionIndex[0]);
+					//newRule.colExpansionIndex.push_back(rules[j].colExpansionIndex[0]);
+					//newRule.coverageCounter = 0;
+					//newRule.rowForRuleBack.push_back(rules[i].rowForRuleBack[0]);
+					rules[i].rowForRuleBack.push_back(rules[j].rowForRuleBack[0]);
+					//newRule.rowForRuleFront.push_back(rules[i].rowForRuleFront[0]);
+					rules[i].rowForRuleFront.push_back(rules[j].rowForRuleFront[0]);
+					//combinedRules.push_back(newRule);
+					//break;//one combination is all we need
+				}
+			}
+		}
+	}
+
+	// Add non-marked rules to combinedRules
+	for (const Rule& rule : rules)
+	{
+		if (!rule.markForErasal)
+			combinedRules.push_back(rule);
+	}
+
+	return combinedRules;
+}
+
+vector<Rule> generalizeRules(vector<Rule> rules, vector<vector<int>> data, float lowPrecision)
+{
+	//generalize the rules:
+	// go through each attribute, test the data without it--if the coverage goes up and the precision of the rule does not go below low precision, then good. Leave it gone
+	// do this for each attributes, for each rule. 
+	//needed first:
+	// code that tests precision
+	return{};
+}
+
+int testRule(Rule rule, vector<vector<int>> data)
+{
+	vector<int> epxandedColIndexes = rule.colExpansionIndex;
+	vector<int> minColVals;
+	vector<int> maxColVals;
+	for (int j = 0; j < epxandedColIndexes.size(); j++)//unfortunate brute force method where sometimes the value in rowForRuleBack is bugger than RowForRuleFront
+	{
+		int minColVal = data.at(rule.rowForRuleBack[j]).at(epxandedColIndexes[j]);
+		int maxColVal = data.at(rule.rowForRuleFront[j]).at(epxandedColIndexes[j]);
+
+		minColVals.push_back(minColVal);
+		maxColVals.push_back(maxColVal);
+	}
+
+	//a usable row for accessing the rules other attribute values besides the expansion. either front or back could be used here
+	int usableRowIndex = rule.rowForRuleFront[0];
+	int appliedRows = 0;
+	for (int row = 0; row < data.size(); row++)
+	{
+		bool goodRow = false;
+		for (int col = 0; col < data.at(0).size(); col++)//There is no "-1" here because we want to account for the class... I think
+		{
+			auto it = std::find(epxandedColIndexes.begin(), epxandedColIndexes.end(), col);
+			//if expanded attribute
+			if (it != epxandedColIndexes.end())
+			{
+				int index = std::distance(epxandedColIndexes.begin(), it);
+				//if the val of the current row and col is not within the expanded bounds of the rule, then go the next row
+				if (!(data.at(row).at(col) >= minColVals[index] && data.at(row).at(col) <= maxColVals[index]))
+				{
+					goodRow = false;
+					break;
+				}
+				goodRow = true;
+			}
+			else
+			{
+				//if the current row at the current column does not match the usable row at the current column, then the rule does not apply to that row
+				//go to the next
+				if (!(data.at(row).at(col) == data.at(usableRowIndex).at(col)))
+				{
+					goodRow = false;
+					break;
+				}
+				goodRow = true;
+			}
+		}
+		if (goodRow)
+		{
+			appliedRows++;
+		}
+	}
+	return appliedRows;
+}
+
+//takes in a rule and returns the number of cases in the data which the rule covers
+vector<Rule> testRules(vector<Rule> rules, vector<vector<int>> data)
+{
+	for (int i = 0; i < rules.size(); i++)
+	{
+		rules[i].coverageCounter = testRule(rules[i], data);
+	}
+	return rules;
+}
+
+//vector<vector<int>> removeDataFromBothClasses 
+
+//removes duplicate rows with different classes, for example
+//0, 1, 2, 1
+//0, 1, 2, 2
+//(considering that the class is in the last column)
+vector<vector<int>> removeDups(vector<vector<int>> dat)
+{
+	// Initialize an unordered map to store the rows that have the same data
+	unordered_map<string, int> mp;
+
+	// Get the number of rows and columns in dat
+	int n = dat.size(), m = dat[0].size();
+
+	// Iterate through each row in dat
+	for (int i = 0; i < n; i++)
+	{
+		string s = "";
+
+		// Concatenate all elements in the row except for the last one (the class)
+		for (int j = 0; j < m - 1; j++)
+		{
+			s += to_string(dat[i][j]) + " ";
+		}
+
+		// If a row is found that has the same data as another row but different classes then both rows are replaced with a row of -1s
+		if (mp.find(s) != mp.end())
+		{
+			if (dat[i][m - 1] != dat[mp[s]][m - 1])
+			{
+				dat[i] = vector<int>(m, -1);
+				dat[mp[s]] = vector<int>(m, -1);
+			}
+		}
+		else
+		{
+			mp[s] = i;
+		}
+	}
+	return dat;
+}
+
 // drive function
 vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, double coveragePercentage)
 {
 
 	vector<vector<int>> data = readCSV(filePath);
 
+	data = removeDups(data);
+
+	//std::sort(data.begin(), data.end());
+
+	//// Remove consecutive duplicates
+	//auto last = std::unique(data.begin(), data.end());
+	//data.erase(last, data.end());
+
+	//// Create a set of vectors to store unique vectors
+	//std::set<std::vector<int>> uniqueVectors(data.begin(), data.end());
+
+	//// Clear the original vector and insert the unique vectors
+	//data.clear();
+	//data.insert(data.end(), uniqueVectors.begin(), uniqueVectors.end());
+
 	// create vector of rules generated
-	vector<rule> rules;
+	vector<Rule> rules;
 
 	// create temporary rule structure for information tracking
-	rule* tempRule;
+	Rule* tempRule;
 
 	//this holds all expansions and expansion data; check struct above for more detail
 	unordered_map<int, Expansion> expansions;
@@ -170,7 +528,6 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 		*/
 
 		// check if the matches can be expanded
-		//=====NOTE: THIS DOES NOT CURRENTLY WORK=====//
 		for (int match = 0; match < matches.size(); match++)
 		{
 			// boolean variable to check if an expandable attribute has already been found
@@ -366,14 +723,14 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 		Expansion curExpansion = it.second;
 
 		//expansionChain will hold the minimum and maximum expansions
-		list<int> expansionChain;
-		expansionChain.push_back(curExpansion.rowExpandedfrom);
+		list<int> expansionChainRow;
+		expansionChainRow.push_back(curExpansion.rowExpandedfrom);
 
 		list<int> expansionIndexChain;
 		expansionIndexChain.push_back(it.first);
 
-		tempRule = new rule;
-		tempRule->expansionIndex = curExpansion.columnIndex;
+		tempRule = new Rule;
+		tempRule->colExpansionIndex.push_back(curExpansion.columnIndex);
 
 		//to stop the while loop below
 		bool endExpansionRuleCheck = false;
@@ -386,7 +743,6 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 			bool noMoreDownExpansions = false;
 
 			//the index within expansions--uses rowDominantForm
-			//here is the issue--the currentExpansionIndexDown seems to be calling on an expansion which doesn't exist.
 			int currentExpansionIndexUp = expansionIndexChain.front();
 			int currentExpansionIndexDown = expansionIndexChain.back();// +(curExpansion.columnIndex * data.at(expansionChain.back()).size() - 1);
 
@@ -398,7 +754,7 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 			//then push it to the front of the expansion chain for the next loop
 			if (expansions[currentExpansionIndexUp].expansionDirection.front() == 1 && expansions[nextExpansionIndexUp].alreadyInARule == false)
 			{
-				expansionChain.push_front(expansions[nextExpansionIndexUp].rowExpandedfrom);
+				expansionChainRow.push_front(expansions[nextExpansionIndexUp].rowExpandedfrom);
 				expansionIndexChain.push_front(nextExpansionIndexUp);
 			}
 			//otherwise mark that there are no more upward expansions from the intitial curExpansion
@@ -411,7 +767,7 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 			//then push it to the back of the expansion chain for the next loop
 			if (expansions[currentExpansionIndexDown].expansionDirection.back() == -1 && expansions[nextExpansionIndexDown].alreadyInARule == false)
 			{
-				expansionChain.push_back(expansions[nextExpansionIndexDown].rowExpandedfrom);
+				expansionChainRow.push_back(expansions[nextExpansionIndexDown].rowExpandedfrom);
 				expansionIndexChain.push_back(nextExpansionIndexDown);
 			}
 			//otherwise mark that there are no more downward expansions from the intitial curExpansion
@@ -437,20 +793,30 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 		} // end while loop
 
 		// determine if a rule has been generated
-		if (expansionChain.size() > 1)
+		if (expansionChainRow.size() > 1)
 		{
 			// add the data to the temporary rule so that it can be added to the rule vector
 			// copy the coordinates into the ruleVals vector
-
-			tempRule->ruleValFront = expansionChain.front();
-			tempRule->ruleValBack = expansionChain.back();
-
+			int max = data.at(expansionChainRow.front()).at(tempRule->colExpansionIndex[0]);
+			int min = data.at(expansionChainRow.back()).at(tempRule->colExpansionIndex[0]);
+			if (min > max)//unfortunate brute force method where sometimes the min and max are reversed so they have to be fixed
+			{
+				int temp = expansionChainRow.back();
+				expansionChainRow.back() = expansionChainRow.front();
+				expansionChainRow.front() = temp;
+			}
+			else if (min == max)
+			{
+				goto ENDFORLOOP;
+			}
+			tempRule->rowForRuleFront.push_back(expansionChainRow.front());
+			tempRule->rowForRuleBack.push_back(expansionChainRow.back());
 
 			// calculate coverage of the rule
-			tempRule->coverageCounter = expansionChain.size();
+			tempRule->coverageCounter = expansionChainRow.size();
 
 			// put the class in the rule
-			tempRule->classCovered = data.at(tempRule->ruleValFront).at(data.at(tempRule->ruleValFront).size() - 1);
+			tempRule->classCovered = data.at(tempRule->rowForRuleFront[0]).at(data.at(tempRule->rowForRuleFront[0]).size() - 1);
 
 			// put the tempRule into the rule vector
 			rules.push_back(*tempRule);
@@ -459,15 +825,13 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 			clearRule(*tempRule);
 
 			// clear the expansionChain so it can be used again
-			expansionChain.clear();
+
 		}
-		else
-		{
-			// if the expansion chain vector is smaller 2, there is no possible less than rule
-			// clear the expansion Chain vector
-			expansionChain.clear();
-		}
+	ENDFORLOOP:
+		expansionChainRow.clear();
+		expansionIndexChain.clear();
 	} // end expansion outer for loop
+
 
 	//counting number of cases per class. Currently only recognizes two classes
 	int class1Num = 0;
@@ -487,9 +851,21 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 		}
 	}
 
+	//cout << "Total rules: " << rules.size() << endl;
+	rules = testRules(rules, data);
+	std::sort(rules.begin(), rules.end(), compareByCoverage);
+	rules = combineOverlappingRules(rules, data);
+	rules = testRules(rules, data);
+	std::sort(rules.begin(), rules.end(), compareByCoverage);
+	rules = combineRulesGoodClauses(rules, data);
+	rules = testRules(rules, data);
+	std::sort(rules.begin(), rules.end(), compareByCoverage);
+
 
 	// print results
 	int ruleCount = 0;
+
+
 	for (int i = 0; i < rules.size(); i++)
 	{
 		int curClass = rules.at(i).classCovered == 1 ? class1Num : class2Num;
@@ -510,6 +886,7 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 
 	for (int i = 0; i < rules.size(); i++)
 	{
+
 		int curClass = rules.at(i).classCovered == 1 ? class1Num : class2Num;
 		double classCoveragePercent = ((double)rules.at(i).coverageCounter / curClass * 100);
 		double allCaseCoveragePercent = ((double)rules.at(i).coverageCounter / data.size() * 100);
@@ -519,18 +896,28 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 			continue;
 		}
 
-		output.push_back("Rule " + to_string(ruleCount) + " : \n");
+		ruleCount++;
 
 		for (int dataPrint = 0; dataPrint < data.at(0).size() - 1; dataPrint++)
 		{
-			if (dataPrint == rules.at(i).expansionIndex)
+			int front = data.at(rules.at(i).rowForRuleFront[0]).at(dataPrint);
+
+			auto it = std::find(rules.at(i).colExpansionIndex.begin(), rules.at(i).colExpansionIndex.end(), dataPrint);
+
+			if (it != rules.at(i).colExpansionIndex.end())
 			{
-				output.push_back(to_string(data.at(rules.at(i).ruleValBack).at(dataPrint)) + " <= X" + to_string(dataPrint + 1) + " <= " + to_string(data.at(rules.at(i).ruleValFront).at(dataPrint)) + "\n");
+				int index = std::distance(rules.at(i).colExpansionIndex.begin(), it);
+
+				int back = data.at(rules.at(i).rowForRuleBack[index]).at(dataPrint);
+				front = data.at(rules.at(i).rowForRuleFront[index]).at(dataPrint);
+
+				output.push_back(to_string(back) + " <= X" + to_string(dataPrint + 1) + " <= " + to_string(front) + "\n");
 			}
 			else
 			{
-				output.push_back("X" + to_string(dataPrint + 1) + " = " + to_string(data.at(rules.at(i).ruleValFront).at(dataPrint)) + "\n");
+				output.push_back( "X" + to_string(dataPrint + 1) + " = " + to_string(front) + "\n");
 			}
+
 		}
 
 		// print the class the rule covers

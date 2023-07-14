@@ -25,7 +25,7 @@ void threadedLoadingForm::threadedLoading()
 	int n = 0; // keeps track of the count of the loop
 	while (loading)//loading is a global variable
 	{
-		//the following if statements create a sort of animation. This way something is moving for the user
+		//the following if statements create a sort of animation. This way something is moving for the user, so they know the program hasn't crashed
 		string formText = "loading ";
 		if (n == 0)
 		{

@@ -4165,7 +4165,7 @@ pair<vector<string>, vector<DNSRule>> DomNominalSet::MTBRGSequential(double prec
 	//combine rules with little overlap
 	//allGroupRules = combineAndTest(totalTargetInData, allGroupRules, 5, 95);
 
-	//combine rules that only have two sub-rules which one similar attribute
+	//combine rules that only have two sub-rules with one similar attribute
 	allGroupRules = combineSimilarTwoClauseRules(allGroupRules, totalTargetInData);
 	/////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////
@@ -4196,10 +4196,7 @@ pair<vector<string>, vector<DNSRule>> DomNominalSet::MTBRGSequential(double prec
 		bool tabbed = false;
 		for (int j = 0; j < curCoord.size(); j++)
 		{
-			
 			if (curCoord.at(j) < 0) continue;
-
-			
 
 			if (curRule.orIndexes.size() > 0 && j == curRule.orIndexes[0] + 1)
 			{
@@ -4543,6 +4540,7 @@ int DomNominalSet::calculateOverlap(DNSRule rule1, DNSRule rule2)
 	{
 		ruleCases.insert(casesUsedMaxRule[k]);
 	}
+
 	//if each rule covers the same case
 	for (int k = 0; k < minRuleCount; k++)
 	{
