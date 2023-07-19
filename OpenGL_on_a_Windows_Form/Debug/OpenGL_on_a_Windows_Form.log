@@ -1,29 +1,4 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualBasic.PowerPacks.Vs". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2827,5): warning MSB3284: Cannot get the file path for type library "05bfd3f1-6319-4f30-b752-c7a22889bcc4" version 1.0. Library not registered. (Exception from HRESULT: 0x8002801D (TYPE_E_LIBNOTREGISTERED))
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2827,5): warning MSB3284: Cannot get the file path for type library "05bfd3f1-6319-4f30-b752-c7a22889bcc4" version 1.0. Library not registered. (Exception from HRESULT: 0x8002801D (TYPE_E_LIBNOTREGISTERED))
-  michaelRuleGen.cpp
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(14,1): warning C4005: '__CLR_VER': macro redefinition
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\stdafx.cpp : message : see previous definition of '__CLR_VER'
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(14,1): warning C4651: '/D__CLR_VER=40809166' specified for precompiled header but not for current compile
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(143,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(151,25): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(178,28): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(226,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(234,25): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(245,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(325,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(337,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(340,25): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(378,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(462,38): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(479,39): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(481,40): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(495,28): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(531,29): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(551,43): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(842,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(869,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(887,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\OpenGL_on_a_Windows_Form\michaelRuleGen.cpp(901,37): warning C4018: '<': signed/unsigned mismatch
-  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   OpenGL_on_a_Windows_Form.vcxproj -> C:\Users\infer\Desktop\Github2\VisCanvasOld\VisCanvas2.0-Rule-Enhancment\Debug\VisCanvas.exe

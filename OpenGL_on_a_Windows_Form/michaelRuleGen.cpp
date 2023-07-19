@@ -310,11 +310,13 @@ vector<Rule> combineRulesGoodClauses(vector<Rule> rules, vector<vector<int>> dat
 vector<Rule> generalizeRules(vector<Rule> rules, vector<vector<int>> data, float lowPrecision)
 {
 	//generalize the rules:
-	// go through each attribute, test the data without it--if the coverage goes up and the precision of the rule does not go below low precision, then good. Leave it gone
-	// do this for each attributes, for each rule. 
+	// 1) go through each attribute, test the data without it--if the coverage goes up and the precision of the rule does not go below lowPrecision, then good. 
+	// take that attribute out of the rule
+	// 2) do this for each rule, for each attribute. 
 	//needed first:
 	// code that tests precision
-	return{};
+	// precision variable added to Rule struct
+	return {};
 }
 
 int testRule(Rule rule, vector<vector<int>> data)
@@ -427,7 +429,8 @@ vector<vector<int>> removeDups(vector<vector<int>> dat)
 // drive function
 vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, double coveragePercentage)
 {
-
+	/*vector<vector<double>> data;
+	data = getArrayFromCSV("C:\\Users\\infer\\Desktop\\Github2\\Boris\\SPC-3D\\Assets\\FileData\\IrisBackUp.data");*/
 	vector<vector<int>> data = readCSV(filePath);
 
 	data = removeDups(data);
@@ -699,7 +702,12 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 
 	//cout << "\n";
 
-
+	//////////////////=======================Here is where the values are differnt it seems; expansions===================//////////////////////
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	// check for "a <= X <= b" rules
 	// Condition: index is the same
 	//			  Ex: column index = 0
@@ -872,10 +880,10 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 		double classCoveragePercent = ((double)rules.at(i).coverageCounter / curClass * 100);
 		double allCaseCoveragePercent = ((double)rules.at(i).coverageCounter / data.size() * 100);
 
-		if (classCoveragePercent < coveragePercentage)
+		/*if (classCoveragePercent < coveragePercentage)
 		{
 			continue;
-		}
+		}*/
 
 		ruleCount++;
 	}
@@ -921,7 +929,7 @@ vector<string> doMichaelRuleGen(std::string filePath, vector<string> output, dou
 		}
 
 		// print the class the rule covers
-		output.push_back("Rule " + to_string(ruleCount) + " covers class " + to_string(rules.at(i).classCovered) + "\n");
+		output.push_back("covers class " + to_string(rules.at(i).classCovered) + "\n");
 
 		output.push_back("Number of cases covered: " + to_string(rules.at(i).coverageCounter) + "\n");
 		
